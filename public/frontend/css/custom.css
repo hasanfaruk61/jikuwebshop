@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper{
+
+    width:1294px ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#wrapper nav {
+  width: 100%;
+    flex: 0 0 25px;
+}
+
+.checkout-form label{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.checkout-form input{
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 400;
+}
+.order-details label{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.order-details div{
+    font-size: 12px;
+    padding: 5px !important;
+}
+
+.search-bar{
+    width: 40%;
+    margin-left: 12%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: 	#212529;
+    color: white;
+}
+
+footer, address{
+    padding-top: 3px;
+}
+
+footer, address a {
+    padding-right: 10px;
+}
+
+#sliderCarousel{
+    background-color: #4e589f;
+}
+.sliderImage{
+
+    width: 350px;
+    height: 300px;
+
+}
